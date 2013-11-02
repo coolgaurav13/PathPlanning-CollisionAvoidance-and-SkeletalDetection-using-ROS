@@ -1,0 +1,18 @@
+Please read the instructions carefully before use
+
+1) 1st you need to set your map in 4th quadrant with 0 degree roatation(i.e position of obstacles in the stage map should be same as in original map), there is an image (Stage_Screenshot.jpg/png) which have all the information about stage.
+
+2) Also there are some files map.yaml,my.world,my.png which i used in my simulation.
+
+3) There are 8 *.cpp files, details are --
+
+	#1) a1q1.cpp = A simple program to move and rotate the robot in Stage.
+ 	#2) a1q2.cpp = A simple program to read the laser's data and display it on the screen.
+	#3) Astar.cpp = A program to implement Astar Algorithm(to find shortest path in grid based map)
+	#4) col_avd.cpp = For avoiding dynamic obstacle(Either a human or another robot).
+	#5) Mapping.cpp = Create a map(i.e. in 0,1 form) by laser data of the robot.
+	#6) Exploration.cpp = Create a map by finding a frontier(a boundary line between explored and unexplored map).
+	#7) Motion.cpp = (motion update)calculate probability distribution of a robot's current position in grid map.
+	#8) Measure.cpp = // incomplete code.
+
+
